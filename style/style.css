@@ -37,3 +37,31 @@
 #main_nav li:first-child, #main_nav ul li{
     border-left: none;
 }
+
+#main_nav ul{
+    display: none;
+    position: absolute;
+    top: 19px;
+    left: 0;
+    z-index: 1;
+    width: 75px;
+}
+
+#main_nav li a, #main_nav li ul li a{
+    color: #8b261c;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-decoration: none;
+    outline: none;
+    padding-bottom: 17px;
+
+}
+
+#main_nav li a:hover, #main_nav li ul a:hover{
+    color: blue;    
+}
+
+#main_nav li:hover ul{
+    display: block;
+}
