@@ -1,0 +1,39 @@
+/* #taable { 
+    float: left; 
+    width: 50%;
+    border-width: 50;
+    margin-right: 20px;
+}
+#buutton{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+#conteent { 
+    float: right; 
+    width: 30%;
+    
+} 
+#footeer {
+    margin-top: 120px;
+} */
+
+
+#main_nav{
+    position: relative;
+    top: 15px;
+    margin-top: 14px;
+    margin-left: 280px;
+}
+
+#main_nav li{
+    display: inline;
+    padding: 0 8px;
+    border-left: 1px dotted #8b261c; 
+    position: relative;
+    z-index: 2;
+}
+#main_nav li:first-child, #main_nav ul li{
+    border-left: none;
+}

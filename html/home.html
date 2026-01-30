@@ -3,10 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\js\style\style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <title>Task 1 2 3 4</title>
 </head>
 <body>
-    <script src="C:\js\javascript\script.js"></script>
-    <div>ЙОоооооооУУУУ</div>
+    <script src="C:\js\javascript\jquery.js"></script>
+        <h1>Логотип</h1>
+    <p id="example">Это параграф.</p>
+    <button id="buutton" onclick="changeText()">Изменить текст</button>
+    <script type="text/javascript">
+        function changeText() {
+            $('#example').text('Новый текст!');
+        }
+    </script>
+
+    <!-- <table id="taable" border="1">  
+        <tr>  
+            <td>Ячейка 1</td>  
+            <td>Ячейка 2</td>  
+        </tr>  
+        <tr>  
+            <td>Ячейка 3</td>  
+            <td>Ячейка 4</td>  
+        </tr>  
+    </table>  
+
+    <div id="conteent">КОНТЕНТ</div>
+
+    <footer id="footeer" style="background:#302ea3; color: cornsilk;"> Я футер</footer> -->
+
+    <ul id="main_nav">
+        <li><a href="#">Услуги</a></li>
+            <ul>
+                <li><a href="#">Массаж</a></li>
+                <li><a href="#">Лифтинг</a></li>
+                <li><a href="#">Тайки</a></li>
+                <li><a href="#">Косметология</a></li>
+            </ul> <!--Вложенный список, выпадающий у услуг-->
+
+        <li><a href="#">Тарифы</a></li>
+        <li><a href="#">Новости</a></li>
+        <li><a href="#">О Компании</a></li>
+    </ul> <!--Основной список-->
+
 </body>
 </html>
