@@ -17,7 +17,9 @@
 }
 
 .menu.open .title::before{
-    content: ⁑;
+    content: '⁑';
+    font-size: 80%;
+    color: red;
 }
 
 .menu.open ul{
