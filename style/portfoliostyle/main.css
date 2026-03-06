@@ -53,7 +53,7 @@ body{background-color: #D8BFD8;}
     display: inline;
 }
 
-#main_nav li a:hover {
+/* #main_nav li a:hover {
     color: blue;    
 }
 
@@ -62,5 +62,5 @@ body{background-color: #D8BFD8;}
 }
 
 #main_nav li:hover ul {
-    display: block;
-}
+    display: none;
+} */
