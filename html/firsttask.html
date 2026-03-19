@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>jQuery Practice</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<h1 id="header">Заголовок</h1>
+<p id="paragraph">Это простой абзац.</p>
+<button id="changeTextButton">Изменить текст</button>
+<script>
+    $(document).ready(function(){
+        $("#changeTextButton").click(function(){
+            $("#header").text( $("#paragraph").text() );
+        })
+    });
+</script>
+</body>
+</html>

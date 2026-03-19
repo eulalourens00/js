@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="page.js"></script>
+    <title>Лендинг</title>
+</head>
+<body>
+
+    <header class="navbar" id="navbar">
+        <div class="container navbar-container" id="navbarContainer">
+            <div class="navbar-left" id="navbarLeft">
+                <div class="logo" id="logo">Whirl</div>
+                <nav class="nav-links" id="navLinks">
+                    <a href="#" id="linkBenefits">Преимущества</a>
+                    <a href="#" id="linkFeatures">Функции</a>
+                    <a href="#" id="linkContacts">Контакты</a>
+                </nav>
+            </div>
+            <div class="navbar-right" id="navbarRight">
+                <a href="#" id="signInBtn">Войти</a>
+                <a href="#" id="demoBtn">Заказать демо</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section hero" id="heroSection">
+            <div class="container hero-container" id="heroContainer">
+                <div class="hero-content" id="heroContent">
+                    <h1 id="heroTitle">Твои повседневные задачи — на автопилоте.</h1>
+                    <p class="hero-subtitle" id="heroSubtitle">Whirl позволяет создавать и оптимизировать твои ежедневные задачи и рабочие процессы всего в несколько кликов.</p>
+                    <div class="hero-buttons" id="heroButtons">
+                        <a href="#" class="btn btn-primary" id="heroDemoBtn">Заказать демо</a>
+                    </div>
+                </div>
+                <div class="hero-image" id="heroImageBlock">
+                    <img src="img/first.jpg" id="heroImg" style="height: 400px; width: 475px; float: right;">
+                </div>
+            </div>
+        </section>
+
+        <section class="section features-grid" id="featuresSection">
+            <div class="container" id="featuresContainer">
+                <div class="grid-3" id="featuresGrid">
+                    <div class="card" id="featureCard1">
+                        <h3 id="featureTitle1">⚡ Быстро. Очень быстро.</h3>
+                        <p id="featureText1">В конце концов, кто бы стал заниматься каким-либо трудом, если не для того, чтобы извлечь из него какую-либо выгоду?</p>
+                    </div>
+                    <div class="card" id="featureCard2">
+                        <h3 id="featureTitle2">💰 Больше за те же деньги.</h3>
+                        <p id="featureText2">В конце концов, кто бы стал заниматься каким-либо трудом, если не для того, чтобы извлечь из него какую-либо выгоду?</p>
+                    </div>
+                    <div class="card" id="featureCard3">
+                        <h3 id="featureTitle3">🔒 Безопасно и надежно. Нам доверяют.</h3>
+                        <p id="featureText3">В конце концов, кто бы стал заниматься каким-либо трудом, если не для того, чтобы извлечь из него какую-либо выгоду?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section care-section" id="careSection">
+            <div class="container" id="careContainer">
+                <div class="care-container" id="careWrapper">
+                    <div class="care-image" id="careImageBlock">
+                        <img src="img/seconf.jpg" id="careImg" style="height: 400px; width: 475px; float: left;">
+                    </div>
+                    <div class="care-content" id="careContent">
+                        <h2 id="careTitle">Мы позаботимся обо всём, чтобы ты мог расслабиться.</h2>
+                        <ul class="care-list" id="careList">
+                            <li id="careItem1"><strong>🔹 Технология защиты от потерь</strong></li>
+                            <li id="careItem2"><strong>🔹 Лёгкий обмен</strong></li>
+                            <li id="careItem3"><strong>🔹 Полное шифрование</strong></li>
+                            <li id="careItem4"><strong>🔹 Множество вариантов</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section about-grid" id="aboutSection">
+            <div class="container" id="aboutContainer">
+                <h2 id="aboutTitle">Что такое Whirl?</h2>
+                <div class="grid-4" id="aboutGrid">
+                    <div class="card" id="aboutCard1">
+                        <h4 id="aboutCardTitle1">📌 Всё в одном месте.</h4>
+                        <p id="aboutCardText1">Не нужно прыгать между десятью вкладками. Все задачи, файлы и коммуникация собраны в едином пространстве.</p>
+                    </div>
+                    <div class="card" id="aboutCard2">
+                        <h4 id="aboutCardTitle2">📅 Получайте ежедневные оповещения.</h4>
+                        <p id="aboutCardText2">Ничего не вылетит из головы. Каждое утро краткий дайджест. Без спама, только по делу.</p>
+                    </div>
+                    <div class="card" id="aboutCard3">
+                        <h4 id="aboutCardTitle3">🛡️ Безопасно и надежно.</h4>
+                        <p id="aboutCardText3">Твои данные под защитой с первого дня. Мы не передаём информацию третьим лицам — даже если очень попросят.</p>
+                    </div>
+                    <div class="card" id="aboutCard4">
+                        <h4 id="aboutCardTitle4">⏳ Настроил и забыл, а потом следишь.</h4>
+                        <p id="aboutCardText4">Один раз выставил правила — и система работает сама. А когда захочешь что‑то поменять — всё настраивается за пару кликов.</p>
+                    </div>
+                </div>
+                <div class="text-center" id="aboutButtonWrapper" style="margin-top: 2rem;">
+                    <a href="#" class="btn btn-primary" id="aboutDemoBtn">Заказать демо</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta" id="ctaSection">
+            <div class="container cta-container" id="ctaContainer">
+                <h2 id="ctaTitle">Начни работу с Whirl</h2>
+                <a href="#" class="btn btn-primary" id="ctaDemoBtn">Заказать демо</a>
+                <div class="trial-info" id="trialInfo">✔ Бесплатная 30-дневная пробная версия</div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="container" id="footerContainer">
+            <div class="footer-top" id="footerTop">
+                <div class="footer-brand" id="footerBrand">
+                    <div class="logo" id="footerLogo">Whirl</div>
+                    <p id="footerText">Выполнил Зайцев Сергей.<br>Работает на парах.<br>Катает в доту.</p>
+                </div>
+                <div class="footer-links" id="footerLinks">
+                    <div class="footer-col" id="footerCol1">
+                        <h5 id="footerCol1Title">Информация</h5>
+                        <a href="#" id="footerLinkFeatures">Функции</a>
+                        <a href="#" id="footerLinkSupport">Поддержка</a>
+                        <a href="#" id="footerLinkTerms">Условия</a>
+                        <a href="#" id="footerLinkPrivacy">Политика конфиденциальности</a>
+                    </div>
+                    <div class="footer-col" id="footerCol2">
+                        <h5 id="footerCol2Title">Админ</h5>
+                        <a href="#" id="footerLinkStyle">Гайд по стилям</a>
+                        <a href="#" id="footerLinkLicenses">Лицензии</a>
+                        <a href="#" id="footerLinkInstructions">Инструкции</a>
+                        <a href="#" id="footerLinkChangelog">Список изменений</a>
+                    </div>
+                </div>
+                <div class="footer-newsletter" id="footerNewsletter">
+                    <h5 id="newsletterTitle">Рассылка</h5>
+                    <p id="newsletterText">Подпишитесь на обновления Whirl.</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Твой email" id="newsletterEmail" required>
+                        <button type="submit" id="newsletterSubmit">➔</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom" id="footerBottom">
+                <p id="copyright">© 2026 Whirl. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
