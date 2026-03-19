@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainn.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="mainn.js"></script>
+    <title>Кочетова А. Р. 9/3-РПО-23/3</title>
+</head>
+<body>
+    <header id="navbar">
+        <div id="navbarContainer">
+            <div id="navbarLeft">
+                <div id="logo">Asweea</div>
+                <nav id="navLinks">
+                    <a href="#" id="linkProjects">Проекты</a>
+                    <a href="#" id="linkAboutMe">Обо мне</a>
+                    <a href="#" id="linkContacts">Контакты</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+    <section class="project">
+    <div class="container">
+        
+        <div>
+            <div class="project-text">
+                <h1>Проекты</h1>
+                <h2>Индивидуальный проект (C#, WinForms)</h2>
+                <p>
+                </br> Спроектировала и разработала desktop-приложение на WinForms для управления объектами.
+                </br> Реализовала CRUD-операции, применив SQLite для управления объектами (чтение, изменение, добавление, удаление).
+                </br> Разработала интуитивно понятный графический интерфейс и внедрила его в приложение.
+                </br> Использовала модульное тестирование для проверки корректности работы с БД.
+                </p>
+                <a href="https://github.com/eulalourens00/Hackathon" target="_blank">
+                Смотреть на GitHub →</a>
+            </div>
+            <div>
+                <img id="first_project" src="img/kolombina.jpg">
+            </div>
+        </div>
+
+        <div>
+            <div class="project-text">
+                <h2>Групповой проект (C++, Qt)</h2>
+                <p>
+                </br> Выступала в роли продукт-менеджера, распределяла задачи, контролировала сроки, координировала участиков. 
+                </br> Отвечала за полную разработку дизайна приложения.
+                </br> Реализовала одни из ключевых модулей прриложения (заметки, список задач и дедлайны, окно с плавающими фразами).
+                </br> Сверстала итоговый лендинг под презентацию приложения.
+                </p>
+                <a href="https://github.com/eulalourens00/grape" target="_blank">
+                Смотреть на GitHub →</a>
+            </div>
+            <div>
+                <img id="second_project" src="img/second.jpg">
+            </div>
+        </div>
+
+        <div>
+            <div class="project-text">
+                <h2>Индивидуальный проект (C#, .NET MAUI)</h2>
+                <p>
+                </br> Создала кроссплатформенное мобильное приложение на .NET MAUI для ведения хроник (записей) снов и последующего анализа. 
+                </br> Интегрировала AI-модель Deepseek через API. Реализовала отправку текста и получения анализа.
+                </br> Разработала интерфейс для ввода, сохранения и отображения хроник, а также результатов от ИИ.
+                </p>
+                <a href=" https://github.com/eulalourens00/nicesoon/tree/master" target="_blank">
+                Смотреть на GitHub →</a>
+            </div>
+            <div>
+                <img id="third_project" src="img/fird.jpg">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="about_me">
+        <div id="aboutMe">
+            <h2>Обо мне</h2>
+            <p>
+                    Меня зовут Настя, я - студентка третьего курса.
+            </br>Я жму 150кг в ягодичном мосте и 40кг штанги от груди.
+            </br>Люблю читать книги и собираю собственную библиотеку. Недавно я сама собрала стеллаж!
+            </br>Пишу код, рисую эскизы и верю, что если проект не взрывается в первый день - значит, я всe делаю правильно.
+            </br>А если он перестает запускаться за сутки до сдачи, то значит этот проект я делала точно сама.
+            </p>
+        </div>
+        <img id="aboutme_img" src="img/aboutme.jpg"></img>
+    </section>
+
+    <footer id="footer">
+        <div id="footerContainer">
+            <div id="footerTop">
+                <div id="footerBrand">
+                    <div id="footerLogo">Asweea</div>
+                    <p id="footerText">Читайте книги.<br>Ходите в зал.<br>Учитесь.<br>И любите котиков!</p>
+                </div>
+                <div id="footerLinks">
+                    <div id="footerCol1">
+                        <h5 id="footerCol1Title">Информация</h5>
+                        <a href="https://github.com/eulalourens00" id="footerLinkGit">Мой профиль GitHub</a>
+                        <a href="https://vk.com/id798265921" id="footerLinkSupport">Поддержка</a>
+                        <a href="https://i.pinimg.com/736x/37/54/05/3754057f86b8b7f8021a28518acc3e98.jpg" id="footerLinkTerms">Котики</a> 
+                    <h5 id="newsletterTitle">Рассылка</h5>
+                    <p id="newsletterText">Asweea. Увидьте больше проектов.</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Твой email" id="newsletterEmail" required>
+                        <button type="submit" id="newsletterSubmit">➔</button>
+                    </form>
+                    </div>
+                </div>
+                <img id="lastimg" src="img/final.jpg">
+            </div>
+            <div id="footerBottom">
+                <p>Йоу.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
